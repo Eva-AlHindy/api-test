@@ -30,4 +30,12 @@ curl -i -X POST -H "Content-Type:application/json" http://api.softhouse.rocks/po
 `Status code: 201 Created`
 
 
+## GET
+### Request:
+curl -i -X GET api.softhouse.rocks/posts/1
+### Response
+`Status code: 200 (OK)`
+```
+{"_id":"5ce2b7b619c8f4e5d2880ac0","id":1,"__v":0,"body":"123","title":"123","userId":1}
+
 
