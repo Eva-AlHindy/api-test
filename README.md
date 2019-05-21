@@ -18,3 +18,14 @@ curl -i -X GET api.softhouse.rocks/posts
   },
 
 ´´´
+##POST
+### Request:
+
+curl -i -X POST -H "Content-Type:application/json" http://api.softhouse.rocks/posts -d '{"title":"Hi, World",
+"body":"Fresh as morning dew", "userId": "5"}'
+
+### Response
+´´´
+`Status code: 201 Created`
+
+´´´
