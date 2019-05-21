@@ -1,10 +1,10 @@
 # api-test
 
-#/POSTS
-##GET
-###Request:
-curl -i -X GET api.softhouse.rocks/posts
-###Response
+# /POSTS
+## GET
+### Request:
+´curl -i -X GET api.softhouse.rocks/posts´
+### Response
 `Status code: 200 (OK)`
 ```
 [
